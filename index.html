@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Queries</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+
+            <div class="nav-container">
+    
+                <div class="nav-title">
+                    <img src="./assets/img/FullLogo_Transparent.png" alt="Logo">
+                    <h1>FixPoint</h1>
+                </div>
+                <div>
+                    <a href="#menu" class="nav-menu">
+                        <svg class="nav-icon"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6h16" /><path d="M7 12h13" /><path d="M10 18h10" /></svg>
+                    </a>
+                    <ul class="navbar-list">
+                        <li>
+                            <a href="">
+                                Inicio
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Categorias
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Contacto
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                Ayuda
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+    
+            </div>
+    
+        </nav>
+        <aside>
+            <p>Ordenar por:</p>
+            <select name="Order" id="order">
+                <option value="Precio">Precio</option>
+                <option value="Marca">Marca</option>
+            </select>
+        </aside>
+        <section>
+            <div class="gallery">
+                <article>
+                    <img src="assets/img/412067-0020-001.jpg" alt="poleron para hombres marca adidas color gris">
+                    <h4>Poleron Adidas</h4>
+                    <p>$31.489</p>
+                    <span>
+                        <a class="button-primary" href="#">Comprar</a>
+                    </span>
+                </article>
+                <article>
+                    <img src="assets/img/659346-0401-001.jpg" alt="poleron para hombres marca opposite color azul oscuro">
+                    <h4>Poleron Opposite</h4>
+                    <p>$26.990</p>
+                    <span>
+                        <a class="button-primary" href="#">Comprar</a>
+                    </span>
+                </article>
+                <article>
+                    <img src="assets/img/752474-0001-001.webp" alt="poleron para mujer marca adidas color negro">
+                    <h4>Poleron Adidas</h4>
+                    <p>$31.489</p>
+                    <span>
+                        <a class="button-primary" href="#">Comprar</a>
+                    </span>
+                </article>            
+                <article>
+                    <img src="assets/img/659887-0001-001.jpg" alt="poleron para hombres marca aussie color negro"> 
+                    <h4>Poleron Aussie</h4>
+                    <p>$28.980</p>
+                    <span>
+                        <a class="button-primary" href="#">Comprar</a>
+                    </span>
+                </article>
+                <article>
+                    <img src="assets/img/752503-0001-001.webp" alt="poleron sin capucha para mujer marca adidas color negro"> 
+                    <h4>Poleron Adidas sin capucha</h4>
+                    <p>$31.489</p>
+                    <span>
+                        <a class="button-primary" href="#">Comprar</a>
+                    </span>
+                </article> 
+            </div>
+            <ul class="pagination">
+                <li><a href=""><<</a></li>
+                <li><a class="selected" href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">4</a></li>
+                <li><a href="">>></a></li>
+            </ul>
+        </section>
+        <footer>    
+            
+            <div>
+                <p>FixPoint</p>
+                <div>
+                    <button title="Instagram">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"
+                        />
+                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                        <path d="M16.5 7.5l0 .01" />
+                        </svg>
+                    </button>
+                    <button title="Facebook">
+                        <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3"
+                        />
+                        </svg>
+                    </button>
+                    <button title="X">
+                        <svg class="icon-footer"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+</html>
